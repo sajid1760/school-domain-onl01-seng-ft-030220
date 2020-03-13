@@ -11,17 +11,17 @@ class School
     @@roster[grade] << stdname
   end
   
-  def roster
-    roster
-  end
+ # def roster
+  #  @@roster
+  #end
   
-  def grade(grade)
-    @@roster[grade]
-  end
+  #def grade(grade)
+   # @@roster[grade]
+  #end
   
-  def sort 
-    @@roster.sort
-  end
+  #def sort 
+   # @@roster.sort
+  #end
   
 end
     
