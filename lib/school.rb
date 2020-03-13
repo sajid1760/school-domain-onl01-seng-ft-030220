@@ -18,7 +18,7 @@ class School
   end
   
   def roster
-    puts ROSTER
+    ROSTER
   end
   
   def grade(grade)
@@ -31,11 +31,11 @@ class School
   
 end
 
-school = School.new("Bayside High School")
-school.add_student("Zach Morris", 9)
-school.add_student("AC Slater", 9)
-school.add_student("Kelly Kapowski", 10)
-school.add_student("Screech", 11)
-school.roster
-school.grade(9)
-school.sort 
+#school = School.new("Bayside High School")
+#school.add_student("Zach Morris", 9)
+#school.add_student("AC Slater", 9)
+#school.add_student("Kelly Kapowski", 10)
+#school.add_student("Screech", 11)
+#school.roster
+#school.grade(9)
+#school.sort 
