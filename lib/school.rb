@@ -1,7 +1,7 @@
 class School
   
   ROSTER = {}
-  @grades = []
+  @grades = [20]
   
   
   def initialize(name)
