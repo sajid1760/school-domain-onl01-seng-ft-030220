@@ -22,11 +22,11 @@ class School
   end
   
   def grade(grade)
-     puts ROSTER[grade]
+     ROSTER[grade]
   end
   
   def sort 
-   puts ROSTER.sort
+   ROSTER.sort
   end
   
 end
