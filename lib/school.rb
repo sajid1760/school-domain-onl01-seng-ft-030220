@@ -2,12 +2,16 @@ class School
   
   ROSTER = {}
   
+  a = 1
+  12.times do
+    ROSTER[a] = []
+  end
+  
   def initialize(name)
     @name = name
   end
   
   def add_student(stdname, grade)
-    if ROSTER[grade] = nil then ROSTER[grade] = [] end
     ROSTER[grade] << stdname
   end
   
