@@ -10,7 +10,7 @@ class School
   
   def add_student(stdname, grade)
     grades = @grades
-    puts grades
+    puts @grades
    # if !grades.include?(grade) then
       ROSTER[grade] = []
      # grades << grade
