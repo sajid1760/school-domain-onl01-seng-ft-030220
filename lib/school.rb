@@ -9,9 +9,10 @@ class School
   end
   
   def add_student(stdname, grade)
-    if !@grades.include?(grade) then
+    grades = @grades
+    if !grades.include?(grade) then
       ROSTER[grade] = []
-      @grades << grade
+      grades << grade
     end
     ROSTER[grade] << stdname
   end
