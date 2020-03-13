@@ -26,7 +26,7 @@ class School
   end
   
   def sort 
-   ROSTER.sort
+   puts ROSTER.sort
   end
   
 end
