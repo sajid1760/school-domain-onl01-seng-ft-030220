@@ -12,7 +12,7 @@ class School
     grades = @grades
     puts grades
    # if !grades.include?(grade) then
-    #  ROSTER[grade] = []
+      ROSTER[grade] = []
      # grades << grade
     #end
     ROSTER[grade] << stdname
