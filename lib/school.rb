@@ -1,14 +1,14 @@
 class School
   
-  @@roster = {}
+  ROSTER = {}
   
   def initialize(name)
     @name = name
   end
   
   def add_student(stdname, grade)
-    if @@roster[grade] = nil then @@roster[grade] = [] end
-    @@roster[grade] << stdname
+    if ROSTER[grade] = nil then ROSTER[grade] = [] end
+    ROSTER[grade] << stdname
   end
   
  # def roster
