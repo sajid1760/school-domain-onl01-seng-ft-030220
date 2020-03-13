@@ -17,7 +17,7 @@ class School
   end
   
   def grade(grade)
-     ROSTER[grade]
+     puts ROSTER[grade]
   end
   
   def sort 
