@@ -1,7 +1,7 @@
 class School
   
   ROSTER = {}
-  @grade = []
+  @grades = []
   
   
   def initialize(name)
@@ -9,9 +9,9 @@ class School
   end
   
   def add_student(stdname, grade)
-    if !@grade.include?(grade) then
+    if !@grades.include?(grade) then
       ROSTER[grade] = []
-      @grade << grade
+      @grades << grade
     end
     ROSTER[grade] << stdname
   end
