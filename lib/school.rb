@@ -13,7 +13,7 @@ class School
   end
   
   def roster
-     ROSTER
+    puts ROSTER
   end
   
   def grade(grade)
