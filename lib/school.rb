@@ -26,7 +26,7 @@ class School
   end
   
   def sort 
-   puts ROSTER.sort
+   puts ROSTER.sort.inspect
   end
   
 end
