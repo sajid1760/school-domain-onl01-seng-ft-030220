@@ -26,7 +26,11 @@ class School
   end
   
   def sort 
-   puts ROSTER.sort.inspect
+   roster = ROSTER
+   roster.each do |grade,students|
+     roster[grade] = students.sort
+   end
+   puts roster
   end
   
 end
